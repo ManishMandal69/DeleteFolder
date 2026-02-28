@@ -237,7 +237,7 @@ reader.onload=()=>{preview.src=reader.result;preview.style.display="block";}
 reader.readAsDataURL(e.target.files[0]);
 }
 
-/* ITEM SYSTEM */
+/* ITEM SYSTEM *****/
 itemForm.onsubmit=e=>{
 e.preventDefault();
 let items=JSON.parse(localStorage.getItem(ITEMS))||[];
